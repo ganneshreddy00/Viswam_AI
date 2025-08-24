@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Example1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Level_2(AI ChatBot/example1.py}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Main",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Level_2(AI ChatBot/main.py}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+# Viswam_AI_ChatBot
+
+This project is an AI ChatBot that utilizes the Hugging Face Transformers library to summarize text and answer questions based on the generated summaries. The chatbot is designed to provide simplified summaries tailored to different age groups and allows users to ask questions about the summaries.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Changelog](#changelog)
+
+## Installation
+
+To set up the project, follow these steps:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/ganneshreddy00/Viswam_AI_ChatBot.git
+   cd Viswam_AI_ChatBot
+   ```
+
+2. **Create a virtual environment:**
+   ```sh
+   python -m venv langchain-env
+   langchain-env\Scripts\activate  # For Windows
+   # or
+   source langchain-env/bin/activate  # For macOS/Linux
+   ```
+
+3. **Install the required dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Configure GPU usage (if applicable):**
+   Follow the instructions in the `README.md` located in the `Level_2(AI ChatBot)` directory to set up GPU support.
+
+## Usage
+
+To run the chatbot application:
+
+1. Navigate to the `Level_2(AI ChatBot)` directory:
+   ```sh
+   cd Level_2(AI ChatBot)
+   ```
+
+2. Run the main script:
+   ```sh
+   python main.py
+   ```
+
+3. Follow the prompts to enter text for summarization and ask questions about the summary.
+
+## Contributing
+
+Contributions are welcome! Please read the [CONTRIBUTING.md](../CONTRIBUTING.md) file for guidelines on how to contribute to this project.
+
+## License
+
+This project is licensed under the AGPLv3 License. See the [LICENSE](../LICENSE) file for details.
+
+## Changelog
+
+See the [CHANGELOG.md](../CHANGELOG.md) file for a list of changes and updates to the project.

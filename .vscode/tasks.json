@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Example1 Script",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${workspaceFolder}/Level_2(AI ChatBot)/example1.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$python"]
+        },
+        {
+            "label": "Run Main Script",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${workspaceFolder}/Level_2(AI ChatBot)/main.py"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": ["$python"]
+        },
+        {
+            "label": "Lint Python Files",
+            "type": "shell",
+            "command": "ruff",
+            "args": [
+                "${workspaceFolder}/Level_2(AI ChatBot}/**/*.py"
+            ],
+            "group": "none",
+            "problemMatcher": ["$python"]
+        }
+    ]
+}
