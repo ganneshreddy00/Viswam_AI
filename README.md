@@ -2,6 +2,16 @@
 
 This project is an AI ChatBot that utilizes the Hugging Face Transformers library to summarize text and answer questions based on the generated summaries. The chatbot is designed to provide simplified summaries tailored to different age groups and allows users to ask questions about the summaries.
 
+## Project Description
+
+Viswam_AI_ChatBot is an AI-powered chatbot that utilizes LangChain and HuggingFace Transformers to provide text summarization and question-answering capabilities. The chatbot is designed to understand user queries and generate relevant responses based on the provided text input.
+
+## Features
+
+- Text summarization tailored for different age groups.
+- Question answering based on summarized content.
+- Built using state-of-the-art transformer models.
+
 ## Table of Contents
 
 - [Installation](#installation)
